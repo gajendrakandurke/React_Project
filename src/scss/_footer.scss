@@ -1,0 +1,57 @@
+.footer{
+    width: 100vw;
+
+    .attribution{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 1rem;
+    }
+
+    button{
+        position: absolute;
+        bottom: 1rem;
+        padding: 7px 25px;
+        right: 1rem;
+        border-radius: .4rem;
+        border: 3px solid $header-outline;
+        color: lighten($header-outline,20%);
+        background: none;
+        font-weight: 600;
+        letter-spacing: 2px;
+
+        &:hover{
+            background-color: rgba($color: #ffffff, $alpha: .8);
+            color: $dark-text;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.footer {
+    width: 100vw;
+}
+.footer .attribution {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 1rem;
+}
+.footer button {
+    position: absolute;
+    bottom: 1rem;
+    padding: 7px 25px;
+    right: 1rem;
+    border-radius: 0.4rem;
+    border: 3px solid #606e85;
+    color: #97a2b4;
+    background: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.footer button:hover {
+    background-color: rgba(255, 255, 255, .8);
+    color: #3b4363;
+    cursor: pointer;
+}
